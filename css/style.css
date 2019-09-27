@@ -1,0 +1,139 @@
+﻿@charset "utf-8";
+html{
+	overflow: auto;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #333333;	
+	font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+	font-size: 15px;
+	line-height: 1.2;
+	overflow:hidden;
+}
+
+header {
+        margin: 0;
+	padding: 0;
+	height: 40px;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	z-index: 10000;
+}
+
+
+#main {
+	width:740px;
+	margin:-10px auto 0px;
+	padding: 10px;
+}
+
+h2 {
+	clear: both;
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: #00becc;
+	padding: 0px 0px;
+}
+h1{
+	color:#1B73BA;
+	border-bottom: 2px solid #1B73BA;
+	box-sizing: border-box;
+  	font-size: 22px;
+  	margin: -30 0 10px ;
+ 	padding: 43px 5px 8px 13px;
+ 	position: relative;
+  	width: 100%;
+}
+
+h1:before {
+	background-color: #1B73BA;
+ 	border: 3px;
+  	content: " ";
+  	display: inline-block;
+  	height: 45%;
+  	left: 10px;
+  	margin-right: 10px;
+  	position: absolute;
+  	top: 48%;
+  	width: 6px;
+	margin: 0 0 0 -10px;
+}
+
+.line li {
+	margin: 0 0 0 -20px;
+	padding: 0 0 0 10px;
+	position:relative;
+	list-style-type:none;
+	margin-bottom: 7px;
+}
+.line li:after {
+	border-bottom:1px solid #999999;
+	content: '';
+	height: 1;
+	left:0;
+	margin: 0 0px 0px -10px;
+	position:absolute;
+	top:8px;
+	vertical-align: middle;
+	width: 10px;
+}
+
+.dot li {
+	margin: 0 0 0 -20px;
+	padding: 0 0 0 0px;
+	position:relative;
+	margin-bottom: 1px;
+}
+ul.topnav {
+	overflow: hidden;
+	margin: 0;
+	padding: 0 0;
+	list-style-type: none;
+	background-color: #333333;
+	font-size: 16px;
+	line-height: 2;
+}
+ul.topnav li {
+	float: left;
+}
+ul.topnav li a {
+	display: block;
+	padding: 4px 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+ul.topnav li a:hover:not(.active) {
+	background-color: #000000;
+}
+ul.topnav li a.active {
+	background-color: #333333;
+}
+ul.topnav li.right {
+	float: right;
+}
+@media screen and (max-width: 480px) {
+	ul.topnav li.right, ul.topnav li {
+		float: none;
+	}
+}
+
+
+.name {
+	font-size:30px
+}
+.attr {
+	font-wight:bold;
+	text-decoration:underline;
+}
+footer {
+	margin: 0 -500%;
+	padding:0 500%;
+	font-size:11px;
+	color:#ffffff;
+	text-align:center;
+	background-color: #333333;
+}
