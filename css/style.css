@@ -1,13 +1,14 @@
 ﻿@charset "utf-8";
 html{
 	overflow: auto;
+	font-size: 62.5%
 }
 body {
 	margin: 0px;
 	padding: 0px;
 	color: #333333;	
 	font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
-	font-size: 15px;
+	font-size: 1.6rem;
 	line-height: 1.2;
 	overflow:hidden;
 }
@@ -25,7 +26,7 @@ header {
 
 
 #main {
-	width:740px;
+	max-width:740px;
 	margin:-10px auto 0px;
 	padding: 10px;
 }
@@ -93,7 +94,7 @@ ul.topnav {
 	padding: 0 0;
 	list-style-type: none;
 	background-color: #333333;
-	font-size: 16px;
+	font-size: 1.8rem;
 	line-height: 2;
 }
 ul.topnav li {
@@ -115,15 +116,10 @@ ul.topnav li a.active {
 ul.topnav li.right {
 	float: right;
 }
-@media screen and (max-width: 480px) {
-	ul.topnav li.right, ul.topnav li {
-		float: none;
-	}
-}
 
 
 .name {
-	font-size:30px
+	font-size:3rem;
 }
 .attr {
 	font-wight:bold;
@@ -137,3 +133,10 @@ footer {
 	text-align:center;
 	background-color: #333333;
 }
+
+@media screen and (max-width: 400px) {
+	ul.topnav li.right, ul.topnav li {
+		float: none;
+	}
+}
+
