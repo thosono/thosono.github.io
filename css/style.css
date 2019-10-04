@@ -134,9 +134,4 @@ footer {
 	background-color: #333333;
 }
 
-@media screen and (max-width: 400px) {
-	ul.topnav li.right, ul.topnav li {
-		float: none;
-	}
-}
 
